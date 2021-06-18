@@ -21,19 +21,5 @@ namespace StudentBank.AgencySystem
 
             Console.ReadLine();
         }
-
-        static void diferencaDatas()
-        {
-            DateTime dataFimPagamento = new DateTime(2021, 6, 30);
-            DateTime dataCorrente = DateTime.Now;
-
-            TimeSpan diferenca = TimeSpan.FromMinutes(40); //dataFimPagamento - dataCorrente;
-
-            string mensagem = "Vencimento em " + TimeSpanHumanizeExtensions.Humanize(diferenca);
-            //Console.WriteLine(mensagem);
-
-            Console.ReadLine();
-        }
-
     }
 }
