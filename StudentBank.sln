@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentBank.AgencySystem", "StudentBank.AgencySystem\StudentBank.AgencySystem.csproj", "{108986C2-0A46-4CE4-9D28-673474040F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentBank.Models", "StudentBank.Models\StudentBank.Models.csproj", "{5E1F3B4D-0FDC-4EA8-A6A3-809B7994798A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{108986C2-0A46-4CE4-9D28-673474040F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108986C2-0A46-4CE4-9D28-673474040F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108986C2-0A46-4CE4-9D28-673474040F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108986C2-0A46-4CE4-9D28-673474040F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1F3B4D-0FDC-4EA8-A6A3-809B7994798A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1F3B4D-0FDC-4EA8-A6A3-809B7994798A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1F3B4D-0FDC-4EA8-A6A3-809B7994798A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1F3B4D-0FDC-4EA8-A6A3-809B7994798A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3873632D-A849-4325-B0E6-8031A3147E56}
+	EndGlobalSection
+EndGlobal
