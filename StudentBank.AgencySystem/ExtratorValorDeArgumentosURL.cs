@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudentBank.AgencySystem
 {
-    class ExtratorValorDeArgumentosURL
+    public class ExtratorValorDeArgumentosURL
     {
     }
 }
