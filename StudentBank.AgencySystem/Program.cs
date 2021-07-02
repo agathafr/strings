@@ -15,6 +15,10 @@ namespace StudentBank.AgencySystem
         {
             string url = "pagina?argumentos";
 
+            // url += "sufixo";
+            string temporaria = url + "sufixo";
+            url = temporaria;
+
             Console.WriteLine(url);
             string argumentos = url.Substring(7);
             Console.WriteLine(argumentos);
