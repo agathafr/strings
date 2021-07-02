@@ -14,9 +14,12 @@ namespace StudentBank.AgencySystem
         static void Main(string[] args)
         {
             string url = "pagina?moedaOrigem=real&moedaDestino=dolar";
-
             Console.WriteLine(url);
-            string argumentos = url.Substring(7);
+
+            int indiceIterrogacao = url.IndexOf('?');
+            Console.WriteLine(indiceIterrogacao);
+           
+            string argumentos = url.Substring(indiceIterrogacao + 1);
             Console.WriteLine(argumentos);
 
             Console.ReadLine();
