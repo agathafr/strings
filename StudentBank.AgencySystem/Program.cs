@@ -13,6 +13,27 @@ namespace StudentBank.AgencySystem
     {
         static void Main(string[] args)
         {
+            string palavra = "moedaOrigem=real&moedaDestino=dolar";
+            string nomeArgumento = "moedaDestino";
+
+            int indice = palavra.IndexOf(nomeArgumento);
+            Console.WriteLine(indice);
+
+            Console.WriteLine("Tamanho da string nomeArgumento " + nomeArgumento.Length + 1);
+
+            Console.WriteLine(palavra.Substring(indice));
+            Console.WriteLine(palavra.Substring(indice + nomeArgumento.Length));
+            Console.ReadLine();
+
+            // Testando o IsNullOrEmpty
+            string textoVazio = "";
+            string textoNulo = null;
+            string textoQualquer = "jflajdlafj";
+            Console.WriteLine(String.IsNullOrEmpty(textoVazio));
+            Console.WriteLine(String.IsNullOrEmpty(textoNulo));
+            Console.WriteLine(String.IsNullOrEmpty(textoQualquer));
+            Console.ReadLine();
+
             string url = "pagina?moedaOrigem=real&moedaDestino=dolar";
             Console.WriteLine(url);
 
